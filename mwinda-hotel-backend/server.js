@@ -8,7 +8,7 @@ require('dotenv').config();
 const app = express();
 
 const corsOptions = {
-  origin: "http://localhost:5173" // Port du frontend
+  origin: "https://mwinda-hotel-client.vercel.app" // Port du frontend
 };
 app.use(cors(corsOptions));
 
