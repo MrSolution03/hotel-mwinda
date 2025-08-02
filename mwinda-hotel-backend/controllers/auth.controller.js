@@ -75,7 +75,7 @@ exports.forgotPassword = async (req, res) => {
 
     // Envoyer l'e-mail
     // NOTE: Le lien pointe vers l'application frontend, qui se chargera d'appeler l'API de réinitialisation
-    const resetURL = `http://localhost:5173/reset-password/${token}`; // URL du frontend
+    const resetURL = `https://mwinda-hotel-client.vercel.app/reset-password/${token}`; // URL du frontend
 
     const mailOptions = {
       from: `"Mwinda Hotel Support" <${process.env.MAIL_USER}>`,
