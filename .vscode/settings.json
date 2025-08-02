@@ -1,0 +1,28 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "hotel",
+            "database": "mwinda_hotel_db",
+            "username": "root",
+            "password": "0704"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "mwinda-hotel",
+            "database": "mwinda_hotel_db",
+            "username": "mika",
+            "password": "0704"
+        }
+    ]
+}
